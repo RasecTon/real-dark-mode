@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 10;
+  }
+  
+  #light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(var(--light-position-x, 0px), var(--light-position-y, 0px));
+    background-image: radial-gradient(circle, white 20%, black 80%);
+  }
+
+a {
+    color: black;
+}
